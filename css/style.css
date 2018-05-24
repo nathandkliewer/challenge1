@@ -1,0 +1,73 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:600|Roboto+Condensed');
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+.roboto {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.underline {
+  text-decoration: underline;
+}
+.hover-zoom {
+  transition: transform 0.2s;
+}
+.hover-zoom:hover {
+transform: scale(1.1);
+border: 2px solid red;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+.nav-link {
+  font-size: 16px;
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+
+.fas {
+  color: white;
+}
+
+.main {
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+  height: auto;
+}
+
+.main-list {
+  font-size: 20px;
+  list-style: none;
+  background-color: #eee;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+
+.jumbotron  {
+  margin: 0px;
+}
+
+btn .btn-primary .get-ride {
+  font-size: 30px;
+  padding: 20px;
+}
+
+.faq {
+background-color: rgba(0,0,0,.4);
+color: #fff;
+}
